@@ -1,0 +1,502 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    height: 80px;
+    width: 100%;
+display: flex;
+    
+}
+#img1{
+    height: 80px;
+    width: 80px;
+}
+
+#img2{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+
+}
+#heroimg{
+    position: relative;
+}
+
+#header-points{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+li{
+    font-weight:bolder;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+    margin-left: 20px;
+}
+#social{
+    display: flex;
+   margin-left: 200px;
+    align-items: center;
+}
+#whats-App{
+    height: 30px;
+    width: 30px;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#what-img{
+    height: 30px;
+    width: 30px;
+}
+#face-img{
+    height: 32px;
+    width: 32px;
+}
+#bt{
+    background: wheat;
+    margin-top: 500px;
+    margin-left: 40px;
+height: 40px;
+width: 250px;
+border: none;
+color: white;
+font-size: 20px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background: linear-gradient(to left, rgb(146, 145, 145),black);
+position: absolute;
+}
+
+#dummy-text{
+    margin-top: 600px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(180, 180, 180);
+}
+#dummy{
+    height: 100px;
+    width: 300px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 150px;
+    text-align:center;
+}
+#final-section{
+    background-color:rgb(202, 199, 202);
+}
+h1{
+padding: 60px;
+font-size: 45px;
+font-weight: bold;
+}
+#img3{
+    height: 230px;
+    width: 300px;
+    margin-left: 170px;
+}
+#details{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#room-detailes{
+    height: 100px;
+    width: 300px;
+    text-align: left;
+    margin-left:165px;
+}
+#dining-detailes{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin-left:180px;
+}
+#pool-detailes{
+    height: 100px;
+    width: 300px;
+    text-align: right;
+    margin-left: 170px;
+
+}
+#dt{
+    margin-top: 10px;
+    
+}
+#dt1{
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+    /*For Small Screen MObiles*/
+@media  screen and (max-width:480px) {
+    #header{
+        height: 60px;
+        width: 532px;
+    }
+    #li{
+        width: 70px;
+    }
+    #img1{
+        height: 60px;
+        width: 60px;
+    }
+    #header-points{
+        margin-left: 12px;
+    }
+    li{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    #social{
+        margin-left: 40px;
+    }
+    #whats-App{
+        height: 20px;
+        width: 20px;
+        border: 2px solid;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    #what-img{
+        height: 20px;
+        width: 20px;
+    }
+    #face-img{
+        height: 22px;
+        width: 22px;
+    }
+
+    #img2{
+        height: 350px;
+        width: 532px;
+    }
+    #bt{
+        margin-top: 280px;
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+    #dummy-text{
+        margin-top: 350px;
+        height: 130px;
+         width: 532px;;
+        display: flex;
+        background-color: rgb(180, 180, 180);
+    }
+    #dummy{
+        height: 50px;
+        width: 200px;
+        font-size: 12px;
+        margin-top: 25px;
+        margin-left: 11px;
+        text-align:center;
+    }
+    
+    h1{
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    }
+    #img3{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #details{
+        display: flex;
+        height: 200px;
+         width: 532px;;
+        margin-top: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #final-section{
+        width: 532px;
+    }
+    #room-detailes{
+        height: 50px;
+        width: 150px;
+        text-align: left;
+        margin-left:15px;
+    }
+    #dining-detailes{
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        margin-left:15px;
+    }
+    #pool-detailes{
+        height: 50px;
+        width: 150px;
+        text-align: right;
+        margin-left: 18px;
+    
+    }
+    #dt{
+        margin-top: 10px;
+        
+    }
+    #dt1{
+        margin-top: 10px;
+        height: 25px;
+        width: 80px;
+        font-size: 12px;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+}
+
+/*Mobile and Small Tablet*/
+@media  screen and(min-width:481px) and (max-width:600px) {
+    #header{
+        height: 60px;
+        width: 532px;
+    }
+    #li{
+        width: 70px;
+    }
+    #img1{
+        height: 60px;
+        width: 60px;
+    }
+    #header-points{
+        margin-left: 12px;
+    }
+    li{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    #social{
+        margin-left: 40px;
+    }
+    #whats-App{
+        height: 20px;
+        width: 20px;
+        border: 2px solid;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    #what-img{
+        height: 20px;
+        width: 20px;
+    }
+    #face-img{
+        height: 22px;
+        width: 22px;
+    }
+
+    #img2{
+        height: 350px;
+        width: 532px;
+    }
+    #bt{
+        margin-top: 280px;
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+    #dummy-text{
+        margin-top: 350px;
+        height: 130px;
+         width: 532px;;
+        display: flex;
+        background-color: rgb(180, 180, 180);
+    }
+    #dummy{
+        height: 50px;
+        width: 200px;
+        font-size: 12px;
+        margin-top: 25px;
+        margin-left: 11px;
+        text-align:center;
+    }
+    
+    h1{
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    }
+    #img3{
+        height: 100px;
+        width: 150px;
+        margin-left: 15px;
+    }
+    #details{
+        display: flex;
+        height: 200px;
+         width: 532px;;
+        margin-top: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #final-section{
+        width: 532px;
+    }
+    #room-detailes{
+        height: 50px;
+        width: 150px;
+        text-align: left;
+        margin-left:15px;
+    }
+    #dining-detailes{
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        margin-left:15px;
+    }
+    #pool-detailes{
+        height: 50px;
+        width: 150px;
+        text-align: right;
+        margin-left: 18px;
+    
+    }
+    #dt{
+        margin-top: 10px;
+        
+    }
+    #dt1{
+        margin-top: 10px;
+        height: 25px;
+        width: 80px;
+        font-size: 12px;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+}
+
+/*For Big Size Screen Tablets*/
+@media screen and (min-width: 700px) and (max-width: 1024px)  {
+    #header{
+        height: 80px;
+        width: 100%;
+    }
+    #li{
+        width: 100px;
+    }
+    #img1{
+        height: 80px;
+        width: 80px;
+    }
+    #header-points{
+        margin-left: 100px;
+    }
+    li{
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    #social{
+        margin-left: 80px;
+    }
+    #whats-App{
+        height: 40px;
+        width: 40px;
+        border: 2px solid;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    #what-img{
+        height: 40px;
+        width: 40px;
+    }
+    #face-img{
+        height: 42px;
+        width: 42px;
+    }
+
+    #img2{
+        height: 500px;
+        width: 100%;
+    }
+    #bt{
+        margin-top: 380px;
+        height: 40px;
+        width: 150px;
+        font-size: 18px;
+    }
+    #dummy-text{
+        margin-top: 500px;
+        height: 185px;
+         width: 100%;;
+        display: flex;
+        background-color: rgb(180, 180, 180);
+    }
+    #dummy{
+        height: 60px;
+        width: 300px;
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 30px;
+        text-align:center;
+    }
+    
+    h1{
+    padding: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    #img3{
+        height: 230px;
+        width: 280px;
+        margin-left: 45px;
+    }
+    #details{
+        display: flex;
+        height: 200px;
+         width: 100%;
+        margin-top: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #final-section{
+        width: 100%;
+        height: 100%;
+    }
+    #room-detailes{
+        height: 40px;
+        width: 300px;
+        text-align: left;
+        margin-left:40px;
+    }
+    #dining-detailes{
+        height: 40px;
+        width: 300px;
+        text-align: center;
+        margin-left:40px;
+    }
+    #pool-detailes{
+        height: 50px;
+        width: 300px;
+        text-align: right;
+        margin-left: 15px;
+    
+    }
+    #dt{
+        margin-top: 10px;
+        
+    }
+    #dt1{
+        margin-top: 20px;
+        height: 30px;
+        width: 120px;
+        font-size: 18px;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+}
